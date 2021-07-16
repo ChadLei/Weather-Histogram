@@ -1,0 +1,18 @@
+16-Jul-21 14:21:41: ERROR - Visual Crossing API limit has already been reached today.
+
+16-Jul-21 14:21:41: INFO - Searching for locations...
+
+16-Jul-21 14:21:41: DEBUG - Starting new HTTP connection (1): api.weatherapi.com:80
+16-Jul-21 14:21:41: DEBUG - http://api.weatherapi.com:80 "GET /v1/ip.json?key=872f607eaac5447fa68181605211207&q=127.0.0.1 HTTP/1.1" 400 None
+16-Jul-21 14:21:41: ERROR - Error Code 400: 127.0.0.1 is a invalid ip address.
+
+16-Jul-21 14:21:41: INFO - Searching for the forecast...
+
+16-Jul-21 14:21:41: DEBUG - Starting new HTTPS connection (1): api.darksky.net:443
+16-Jul-21 14:21:42: DEBUG - https://api.darksky.net:443 "GET /forecast/e483e7b5625f1da9cc392b43b50ae461/33.6465,-96.6132,1626505200?exclude=currently,minutely,hourly,alerts,flags HTTP/1.1" 403 49
+16-Jul-21 14:21:42: ERROR - Error Code 403: DarkSky API limit reached.
+
+16-Jul-21 14:21:42: DEBUG - Starting new HTTPS connection (1): weather.visualcrossing.com:443
+16-Jul-21 14:21:42: DEBUG - https://weather.visualcrossing.com:443 "GET /VisualCrossingWebServices/rest/services/timeline/33.6465%2C-96.6132/today?unitGroup=us&key=8JZ7Y7TQ7BUXNZYK3YZFRHR3F HTTP/1.1" 200 2036
+16-Jul-21 14:21:42: INFO - Histogram file complete!
+
